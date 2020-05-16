@@ -1,0 +1,2 @@
+# Server-Client-Chat-Application
+Server Client Chat Application is build using Java through Socket Programming. A client and server can communicate with each other placed at different locations. But here, I had established a communication in same machine for both server and client. The server gets a new socket bound to the same local port and also has an endpoint that is set to the address and port of the client. On the client side, if a connection is accepted, the socket is successfully made and the client can use the socket to communicate with the server.
